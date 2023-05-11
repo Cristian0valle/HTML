@@ -1,0 +1,65 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28-04-2023, 17:22:31
+    Author     : 56978
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  background-image: url("https://img.freepik.com/foto-gratis/render-3d-diseno-plexo-baja-poli-comunicaciones-red_1048-14542.jpg?w=996&t=st=1682800658~exp=1682801258~hmac=076986b0da607a572211cc73b21cbb7faa8857b682e146924a55f04c76257177");
+    background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+h2 {
+  text-align: center;
+  color: #fff;
+}
+
+/* Estilos del formulario */
+form {
+  width: 500px;
+  margin: 0 auto;
+  background-color: #FFF;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  background-color: indigo;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #5DA6A1;
+}

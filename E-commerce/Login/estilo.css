@@ -1,0 +1,86 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28-04-2023, 17:54:58
+    Author     : C0valle
+*/
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  background-image: url("https://img.freepik.com/foto-gratis/render-3d-diseno-plexo-baja-poli-comunicaciones-red_1048-14542.jpg?w=996&t=st=1682800658~exp=1682801258~hmac=076986b0da607a572211cc73b21cbb7faa8857b682e146924a55f04c76257177");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contenedor {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: #FFF;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+form {
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-top: 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.botones {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20;
+
+}
+
+input[type="submit"],
+input[type="button"] {
+  background-color: indigo;
+  color: #fff;
+  flex: 1;
+  margin-right: 10px;
+  padding: 9px 18px;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover {
+  background-color: #5DA6A1;
+}
+
+.error {
+  color: #f00;
+  font-size: 0.8em;
+  margin-top: 5px;
+}
+
+.footer{
+    background: violet;
+    flex-grow: 1;
+}
